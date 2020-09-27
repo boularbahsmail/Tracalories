@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- icon -->
     <link rel="icon" type="x-icon" href="https://icon-library.com/images/calorie-icon/calorie-icon-15.jpg" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="manifest.json">
     <!-- materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <!-- font awesome -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+        };
+      </script>
     <style type="text/css">
     	@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Muli:wght@400;500;600;700&display=swap';
     	* {

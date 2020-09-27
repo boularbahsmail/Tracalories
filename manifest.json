@@ -1,25 +1,20 @@
 {
-  "short_name": "Trecalories",
-  "name": "Calories counter",
-  "icons": [
-    {
-      "src": "https://icon-library.com/images/calorie-icon/calorie-icon-15.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512"
-    },
-    {
-      "src": "https://icon-library.com/images/calorie-icon/calorie-icon-15.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "https://tracalories.vercel.app/",
-  "background_color": "transparent",
-  "display": "standalone",
-  "scope": "/index",
-  "theme_color": "#001"
-,
-
-  "scope": "./",
-  "start_url": "index.html"
-}
+    "short_name": "Tracalories",
+    "name": "Calories counter app",
+    "icons": [
+      {
+        "src": "https://icon-library.com/images/calorie-icon/calorie-icon-15.jpg",
+        "type": "image/jpg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://icon-library.com/images/calorie-icon/calorie-icon-15.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "transparent",
+    "display": "standalone",
+    "theme_color": "#ff0000"
+  }
